@@ -3,6 +3,8 @@ if SHIELD_RAVINE_LEFT
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "Ravine"
+config USB_DEVICE_MANUFACTURER
+    default "Zakwaykway"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

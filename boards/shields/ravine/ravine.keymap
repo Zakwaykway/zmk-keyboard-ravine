@@ -1,0 +1,9 @@
+#include "zmk-helpers/key-labels/hummingbird.h"
+
+#define LH1 26 // correct hummingbird.h's labels' values
+#define LH0 27
+#define RH0 28
+#define RH1 29
+
+
+#include "base.keymap"
