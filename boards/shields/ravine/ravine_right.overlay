@@ -26,6 +26,10 @@
     col-offset = <4>;
 };
 
+&right_encoder {
+    status = "disabled"; // change this to "okay" to enable right half encoder
+};
+
 &physical_layout_ravine {
     kscan = <&kscan0>;
 };

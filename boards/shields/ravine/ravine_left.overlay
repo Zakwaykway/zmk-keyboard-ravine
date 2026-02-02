@@ -22,6 +22,10 @@
     };
 };
 
+&left_encoder {
+    status = "disabled"; // change this to "okay" to enable left half encoder
+};
+
 &physical_layout_ravine {
     kscan = <&kscan0>;
 };
