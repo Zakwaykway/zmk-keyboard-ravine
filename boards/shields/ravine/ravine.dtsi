@@ -13,7 +13,6 @@
     RC(3,0)         RC(3,1)         RC(3,2)     RC(3,7)         RC(3,6)         RC(3,4)
         >;
     };
-};
 
     left_encoder: encoder_left {
         compatible = "alps,ec11";
@@ -29,11 +28,13 @@
         steps = <20>;
         status = "disabled";
     };
+
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <20>;
     };
+};
 
 &physical_layout_ravine {
     transform = <&matrix_transform0>;
